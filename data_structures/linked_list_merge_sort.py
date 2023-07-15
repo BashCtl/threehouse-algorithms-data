@@ -97,16 +97,19 @@ def merge(left, right):
 
     return merged
 
-l = LinkedList()
-l.add(3)
-l.add(7)
-l.add(9)
-l.add(1)
-l.add(12)
-l.add(2)
-l.add(32)
-l.add(10)
-l.add(11)
-l.add(11)
 
-print(merge_sort(l))
+if __name__ == "__main__":
+
+    l = LinkedList()
+    l.add(3)
+    l.add(7)
+    l.add(9)
+    l.add(1)
+    l.add(12)
+    l.add(2)
+    l.add(32)
+    l.add(10)
+    l.add(11)
+    l.add(11)
+
+    print(merge_sort(l))
